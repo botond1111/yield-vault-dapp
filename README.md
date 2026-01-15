@@ -1,29 +1,25 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](/packages/create-rainbowkit).
+# Yield Vault DApp 🏦
 
-## Getting Started
+A decentralized application where users can deposit USDC tokens and earn yield (simulated). Built with Solidity, Hardhat, Next.js, and RainbowKit.
 
-First, run the development server:
+🔗 Live Demo: [Ide másold be a Vercel linkedet] 📜 Contract (Sepolia): [Ide másold be az Etherscan linkedet]
 
-```bash
-npm run dev
-```
+Features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ERC-4626 standard implementation (simplified)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Deposit & Withdraw functionality
 
-## Learn More
+Real-time balance tracking
 
-To learn more about this stack, take a look at the following resources:
+Testnet Faucet (Mint MockUSDC)
 
-- [RainbowKit Documentation](https://rainbowkit.com) - Learn how to customize your wallet connection flow.
-- [wagmi Documentation](https://wagmi.sh) - Learn how to interact with Ethereum.
-- [Next.js Documentation](https://nextjs.org/docs) - Learn how to build a Next.js application.
+Tech Stack:
 
-You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-me/rainbowkit) - your feedback and contributions are welcome!
+Solidity & Hardhat
 
-## Deploy on Vercel
+Next.js & TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Wagmi & Viem
 
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+RainbowKit
