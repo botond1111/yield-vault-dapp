@@ -2,7 +2,7 @@
 
 A decentralized application where users can deposit USDC tokens and earn yield (simulated). Built with Solidity, Hardhat, Next.js, and RainbowKit.
 
-🔗 Live Demo: [Ide másold be a Vercel linkedet] 📜 Contract (Sepolia): [Ide másold be az Etherscan linkedet]
+🔗 Live Demo: https://yield-vault-dapp.vercel.app/ 📜 Contract (Sepolia): https://sepolia.etherscan.io/address/0x55514300b0c319a0B914178797aef989BdD9D9f9#code
 
 Features:
 
