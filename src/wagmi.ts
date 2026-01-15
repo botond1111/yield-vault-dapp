@@ -9,7 +9,7 @@ import {
 } from 'wagmi/chains';
 
 export const config = getDefaultConfig({
-  appName: 'RainbowKit App',
+  appName: 'Yield Vault Frontend',
   projectId: 'YOUR_PROJECT_ID',
   chains: [
     mainnet,
@@ -17,7 +17,7 @@ export const config = getDefaultConfig({
     optimism,
     arbitrum,
     base,
-    ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === 'true' ? [sepolia] : []),
+    sepolia,
   ],
   ssr: true,
 });
